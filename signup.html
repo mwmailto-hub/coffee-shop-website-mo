@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Coding School Signup</title>
+  </head>
+  <body>
+    <header>
+      <h1>Coding School</h1>
+      <p>Melde dich jetzt für dein Bootcamp an!</p>
+    </header>
+
+    <main>
+      <form>
+        <fieldset>
+          <legend>Persönliche Daten</legend>
+
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname" placeholder="Max Mustermann" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="max@beispiel.de" required />
+
+          <label for="tel">Telefon</label>
+          <input type="tel" id="tel" placeholder="+49 123 456789" required />
+
+          <label for="bootcamp">Bootcamp</label>
+          <select id="bootcamp" required>
+            <option value="">-- Bitte wählen --</option>
+            <option value="webdev">Web Development</option>
+            <option value="datascience">Data Science</option>
+            <option value="uxdesign">UX Design</option>
+            <option value="cybersecurity">Cyber Security</option>
+          </select>
+
+          <button type="submit">Jetzt anmelden</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2026 Coding School Berlin</p>
+    </footer>
+  </body>
+</html>
